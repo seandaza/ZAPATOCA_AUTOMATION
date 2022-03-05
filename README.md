@@ -14,5 +14,11 @@ En esta fase la estructura de los productos se asocia a una lista de webElemets 
 ### Detalles
 Los elementos de la pagina, mayormante son ubicados en el DOM con xpath y cssSelector. Las esperas en mayor medida fueron explicitas a traves del metodo time.sleep()
 
+### Ver Video
+
+En el siguiente link se encuentra el video donde se evidencia el performance del script.
+https://youtu.be/e-1Qk5QG5O8
+
+[]: # Link: https://www.youtube.com/watch?v=_X_Q_X_Q_X_Q
 
 
