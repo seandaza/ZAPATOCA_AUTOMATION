@@ -1,4 +1,4 @@
-## Descripciíon
+## Descripción
 En este ejercicio técnico, se logra automatizar los procesos asociados al registro, login y agregado de 5 productos al carrito de compras de la página web https://staging-zapatoca.miaguila.com/registro/?hidecaptcha=true.
 
 ## Requerimientos
