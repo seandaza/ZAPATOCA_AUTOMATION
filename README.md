@@ -4,3 +4,4 @@ En este ejercicio técnico, se logra automatizar los procesos asociados al regis
 ## Requerimientos
 1. Para el script, se utilizó a python como lenguaje de programación.
 2. Descargar el ChromeDriver de la siguiente dirección: https://chromedriver.chromium.org/downloads
+
