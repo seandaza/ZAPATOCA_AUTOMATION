@@ -125,13 +125,19 @@ class TestAutomation(unittest.TestCase):
             agregar.click()
             time.sleep(3)
             
-            casa = self.driver.find_element_by_xpath('//h3[@class="location-name"]')
-            casa.click()
-            time.sleep(3)
+            try:
+                casa = self.driver.find_element_by_xpath('//h3[@class="location-name"]')
+                casa.click()
+                time.sleep(3)
+            except:
+                pass
             
-            cerrar = self.driver.find_element_by_css_selector('#__layout > div > div.panel.is-open > div.cart-container > header > button')
-            time.sleep(1)
-            cerrar.click()
+            try:
+                cerrar = self.driver.find_element_by_css_selector('#__layout > div > div.panel.is-open > div.cart-container > header > button')
+                time.sleep(1)
+                cerrar.click()
+            except:
+                pass
             time.sleep(2)            
             self.driver.back()
             time.sleep(3)       
