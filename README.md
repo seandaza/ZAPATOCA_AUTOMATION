@@ -11,7 +11,7 @@ Para la fase de registro y login, se deja en el script el payload de los datos q
 ### Agregar productos al carrito
 En esta fase la estructura de los productos se asocia a una lista de webElemets que son visitados  uno a uno en orden para agregar al carrito el total de 5 productos.
 
-###Detalles
+### Detalles
 Los elementos de la pagina, mayormante son ubicados en el DOM con xpath y cssSelector. Las esperas en mayor medida fueron explicitas a traves del metodo time.sleep()
 
 
